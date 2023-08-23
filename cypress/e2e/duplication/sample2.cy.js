@@ -13,10 +13,7 @@ describe('Code duplication bad practice - repetitive tests', () => {
       .and('have.value', 'redux')
       .as('searchField')
       .clear()
-
-      
-
-
+    
 })
 // criando um Array e interando sobre ele com uma função
 const termosToSeachFor = ['reactjs', 'vuejs']
